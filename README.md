@@ -1,6 +1,6 @@
-# Davidoff Property Management Website
+# Davidoff Real Estate Solutions Website
 
-A modern, responsive website for Davidoff Property Management services in Israel.
+A modern, responsive website for Davidoff Real Estate Solutions services in Israel.
 
 ## Features
 
@@ -73,6 +73,6 @@ npm run preview
 
 ## License
 
-© 2024 Davidoff Property Management
+© 2024 Davidoff Real Estate Solutions
 
 

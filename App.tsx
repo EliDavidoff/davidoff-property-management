@@ -113,7 +113,7 @@ const ChatSimulation = ({ active, onClick }) => {
       <div className="bg-[#075e54] p-2 flex items-center gap-2 text-white">
         <Logo size={10} className="w-6 h-6 flex items-center justify-center border border-white/10" />
         <div>
-          <p className="text-[10px] font-bold">Davidoff PM</p>
+          <p className="text-[10px] font-bold">Davidoff RES</p>
           <p className="text-[8px] opacity-80">{step >= 2 && step < 3 ? 'typing...' : 'online'}</p>
         </div>
       </div>
@@ -184,7 +184,7 @@ const IMessageSimulation = ({ active, onClick }) => {
       {/* iOS Header - Compact */}
       <div className="bg-white/80 backdrop-blur-md p-2 border-b border-slate-100 flex flex-col items-center z-10 sticky top-0">
         <Logo size={10} className="w-6 h-6 flex items-center justify-center mb-0.5" />
-        <p className="text-[9px] text-slate-500 font-medium">Davidoff PM</p>
+        <p className="text-[9px] text-slate-500 font-medium">Davidoff RES</p>
       </div>
 
       {/* Chat Body */}
@@ -353,7 +353,7 @@ const LegalModal = ({ type, onClose }) => {
               
               <section>
                 <h3 className="font-bold text-slate-900 text-base mb-2">1. Introduction</h3>
-                <p>Davidoff Property Management ("we", "us", or "our") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights.</p>
+                <p>Davidoff Real Estate Solutions ("we", "us", or "our") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website and tell you about your privacy rights.</p>
               </section>
 
               <section>
@@ -403,12 +403,12 @@ const LegalModal = ({ type, onClose }) => {
               
               <section>
                 <h3 className="font-bold text-slate-900 text-base mb-2">1. Agreement to Terms</h3>
-                <p>These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Davidoff Property Management ("we," "us" or "our"), concerning your access to and use of our services. By using our services, you agree to be bound by these Terms.</p>
+                <p>These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Davidoff Real Estate Solutions ("we," "us" or "our"), concerning your access to and use of our services. By using our services, you agree to be bound by these Terms.</p>
               </section>
 
               <section>
                 <h3 className="font-bold text-slate-900 text-base mb-2">2. Services Provided</h3>
-                <p>Davidoff Property Management provides residential property management, renovation oversight, and real estate brokerage services within Israel for overseas owners. Specific deliverables, fees, and timelines are outlined in your individual Management Agreement.</p>
+                <p>Davidoff Real Estate Solutions provides residential property management, renovation oversight, and real estate brokerage services within Israel for overseas owners. Specific deliverables, fees, and timelines are outlined in your individual Management Agreement.</p>
               </section>
 
               <section>
@@ -418,12 +418,12 @@ const LegalModal = ({ type, onClose }) => {
 
               <section>
                 <h3 className="font-bold text-slate-900 text-base mb-2">4. Limitation of Liability</h3>
-                <p>To the fullest extent permitted by applicable law, Davidoff Property Management shall not be liable for indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues. We act as agents for the property owner and are not liable for pre-existing defects in the property or force majeure events.</p>
+                <p>To the fullest extent permitted by applicable law, Davidoff Real Estate Solutions shall not be liable for indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues. We act as agents for the property owner and are not liable for pre-existing defects in the property or force majeure events.</p>
               </section>
 
               <section>
                 <h3 className="font-bold text-slate-900 text-base mb-2">5. Governing Law</h3>
-                <p>These Terms shall be governed by and defined following the laws of the State of Israel. Davidoff Property Management and yourself irrevocably consent that the courts of Israel shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.</p>
+                <p>These Terms shall be governed by and defined following the laws of the State of Israel. Davidoff Real Estate Solutions and yourself irrevocably consent that the courts of Israel shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.</p>
               </section>
             </>
           )}
@@ -432,7 +432,7 @@ const LegalModal = ({ type, onClose }) => {
             <>
               <section>
                 <h3 className="font-bold text-slate-900 text-base mb-2">General Commitment</h3>
-                <p>Davidoff Property Management is committed to ensuring digital accessibility for people with disabilities. We adhere to the belief that every person has the right to live with dignity, equality, comfort, and independence. We are continually improving the user experience for everyone and applying the relevant accessibility standards.</p>
+                <p>Davidoff Real Estate Solutions is committed to ensuring digital accessibility for people with disabilities. We adhere to the belief that every person has the right to live with dignity, equality, comfort, and independence. We are continually improving the user experience for everyone and applying the relevant accessibility standards.</p>
               </section>
 
               <section>
@@ -453,7 +453,7 @@ const LegalModal = ({ type, onClose }) => {
 
               <section>
                 <h3 className="font-bold text-slate-900 text-base mb-2">Feedback & Contact</h3>
-                <p>We welcome your feedback on the accessibility of the Davidoff Property Management website. Please let us know if you encounter accessibility barriers:</p>
+                <p>We welcome your feedback on the accessibility of the Davidoff Real Estate Solutions website. Please let us know if you encounter accessibility barriers:</p>
                 <ul className="list-disc pl-5 mt-2">
                   <li><strong>Phone:</strong> 054-321-0002</li>
                   <li><strong>E-mail:</strong> davidoffpm@gmail.com</li>
@@ -591,8 +591,8 @@ const App = () => {
       className="font-sans text-slate-900 bg-stone-50 w-full h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth overflow-x-hidden relative"
     >
       <SEO 
-        title="Davidoff Property Management | Your Eyes & Ears in Israel"
-        description="Professional property management services in Israel for overseas owners. We handle everything from tenant management, repairs, and renovations to bill payments (Arnona, Vaad Bayit) and Chagim preparation."
+        title="Davidoff Real Estate Solutions | Your Eyes & Ears in Israel"
+        description="Professional real estate solutions in Israel for overseas owners. We handle everything from tenant management, repairs, and renovations to bill payments (Arnona, Vaad Bayit) and Chagim preparation."
         keywords="property management Israel, real estate management Jerusalem, property management services Israel, tenant management Israel, property repairs Israel, holiday home management, aliyah property management"
       />
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-amber-500 focus:p-4">Skip to main content</a>
@@ -635,7 +635,7 @@ const App = () => {
         {/* SECTION 1: HERO */}
         <section id="home" className="h-screen w-full snap-start relative flex items-center justify-center bg-slate-900 overflow-hidden">
           <div className="absolute inset-0">
-             <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070&auto=format&fit=crop" alt="Jerusalem real estate property management - Modern apartment buildings in Israel managed by Davidoff Property Management" className={`w-full h-full object-cover opacity-80 transition-transform duration-[20s] ease-in-out ${loaded ? 'scale-110' : 'scale-100'}`} referrerPolicy="no-referrer" onError={(e) => { e.target.style.display = 'none'; }} />
+             <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070&auto=format&fit=crop" alt="Jerusalem real estate solutions - Modern apartment buildings in Israel managed by Davidoff Real Estate Solutions" className={`w-full h-full object-cover opacity-80 transition-transform duration-[20s] ease-in-out ${loaded ? 'scale-110' : 'scale-100'}`} referrerPolicy="no-referrer" onError={(e) => { e.target.style.display = 'none'; }} />
             <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-900/60 to-slate-950/90"></div>
           </div>
           <div className="container mx-auto px-6 relative z-10 flex flex-col justify-center h-full pt-12 pb-20">
@@ -743,7 +743,7 @@ const App = () => {
                    { url: "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?q=80&w=1000", title: "Modern Kitchen", loc: "Baka" }
                  ].map((img, idx) => (
                    <div key={idx} className="min-w-[80vw] md:min-w-[30vw] h-[50vh] snap-center rounded-xl overflow-hidden relative group border border-slate-700">
-                     <img src={img.url} alt={`${img.title} renovation project in ${img.loc}, Israel - Property management and renovation services by Davidoff PM`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                     <img src={img.url} alt={`${img.title} renovation project in ${img.loc}, Israel - Real estate solutions and renovation services by Davidoff RES`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-6">
                        <h4 className="text-white font-bold text-lg">{img.title}</h4>
                        <p className="text-amber-400 text-xs uppercase tracking-wide flex items-center gap-1"><MapPin size={10} /> {img.loc}</p>
@@ -873,7 +873,7 @@ const App = () => {
                 <button onClick={() => setLegalModal('terms')} className="underline">Terms</button>
                 <button onClick={() => setLegalModal('accessibility')} className="underline">Accessibility</button>
               </div>
-               <p className="text-xs text-slate-400">© {new Date().getFullYear()} Davidoff PM.</p>
+               <p className="text-xs text-slate-400">© {new Date().getFullYear()} Davidoff Real Estate Solutions.</p>
             </div>
           </div>
         </section>

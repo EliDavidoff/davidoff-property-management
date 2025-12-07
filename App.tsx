@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { SEO } from './src/components/SEO';
 import { 
   Phone, 
   Mail, 
@@ -586,6 +587,11 @@ const App = () => {
       ref={scrollContainerRef}
       className="font-sans text-slate-900 bg-stone-50 w-full h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth overflow-x-hidden relative"
     >
+      <SEO 
+        title="Davidoff Property Management | Your Eyes & Ears in Israel"
+        description="Professional property management services in Israel for overseas owners. We handle everything from tenant management, repairs, and renovations to bill payments (Arnona, Vaad Bayit) and Chagim preparation."
+        keywords="property management Israel, real estate management Jerusalem, property management services Israel, tenant management Israel, property repairs Israel, holiday home management, aliyah property management"
+      />
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:bg-amber-500 focus:p-4">Skip to main content</a>
       <LegalModal type={legalModal} onClose={() => setLegalModal(null)} />
       <QuoteModal isOpen={quoteModalOpen} onClose={() => setQuoteModalOpen(false)} />
@@ -628,7 +634,7 @@ const App = () => {
         {/* SECTION 1: HERO */}
         <section id="home" className="h-screen w-full snap-start relative flex items-center justify-center bg-slate-900 overflow-hidden">
           <div className="absolute inset-0">
-             <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070&auto=format&fit=crop" alt="Jerusalem Real Estate" className={`w-full h-full object-cover opacity-80 transition-transform duration-[20s] ease-in-out ${loaded ? 'scale-110' : 'scale-100'}`} referrerPolicy="no-referrer" onError={(e) => { e.target.style.display = 'none'; }} />
+             <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2070&auto=format&fit=crop" alt="Jerusalem real estate property management - Modern apartment buildings in Israel managed by Davidoff Property Management" className={`w-full h-full object-cover opacity-80 transition-transform duration-[20s] ease-in-out ${loaded ? 'scale-110' : 'scale-100'}`} referrerPolicy="no-referrer" onError={(e) => { e.target.style.display = 'none'; }} />
             <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-900/60 to-slate-950/90"></div>
           </div>
           <div className="container mx-auto px-6 relative z-10 flex flex-col justify-center h-full pt-12 pb-20">
@@ -736,7 +742,7 @@ const App = () => {
                    { url: "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?q=80&w=1000", title: "Modern Kitchen", loc: "Baka" }
                  ].map((img, idx) => (
                    <div key={idx} className="min-w-[80vw] md:min-w-[30vw] h-[50vh] snap-center rounded-xl overflow-hidden relative group border border-slate-700">
-                     <img src={img.url} alt={img.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                     <img src={img.url} alt={`${img.title} renovation project in ${img.loc}, Israel - Property management and renovation services by Davidoff PM`} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                      <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent flex flex-col justify-end p-6">
                        <h4 className="text-white font-bold text-lg">{img.title}</h4>
                        <p className="text-amber-400 text-xs uppercase tracking-wide flex items-center gap-1"><MapPin size={10} /> {img.loc}</p>
